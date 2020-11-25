@@ -170,6 +170,12 @@ body {
     .curso{
        padding-left: 6%;
     }
+    .caixa{
+        margin:5%;
+    }
+    .pagamento{
+        width: 60%;
+    }
 }
 /* Conteúdo Programático */
 .list div + div{
