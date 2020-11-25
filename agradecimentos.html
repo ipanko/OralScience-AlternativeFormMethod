@@ -31,7 +31,7 @@
             }
             button{
                 font-family: PlutoRegular
-            }
+            }            
         </style>        
     </head>
     <!--/Metadados-->
@@ -45,15 +45,32 @@
                                 padding-top: 100px;
                                 padding-bottom: 100px">
         <!--/DesignCorpo-->
+        <!--Informações sobre Pagamento-->
         <div class="caixa">
-            <h1 style="color:#0086be;padding-top: 50px">Obrigado pelo seu Interesse!</h1>
+            <h1 style="color:#0086be;padding-top: 30px">Obrigado pelo seu Interesse!</h1>
             <p/>
             <h3 style="color:#16223c;font-size: 23px">Para concluir sua inscrição, basta realizar o pagamento por cartão de crédito/boleto bancário (PagSeguro) ou transferência bancária (5% de desconto)</h3>
             <p style="color:#5e5e5e;font-size: 17px">você receberá todas as informações referentes ao curso por e-mail após confirmação do pagamento.</p>
+        </div>
+        <!--/Informações sobre Pagamento-->
+        <!--Métodos de Pagamento-->
+        <div class="flexbox">  
+            <!--Botão Transferência Bancaria-->
+            <div>
+                <form action="https://formspree.io/f/xyybprvp" method="POST">
+                    <input class="form-control" type="email" name="Email" placeholder="E-Mail" size="40"/>
+                </form>
+                <p style="font-size: 15px;padding-top: 5px;color:#5e5e5e">Solicite informações de transferência bancária<br>inserindo seu Email no campo acima <input type="submit" class="butao" value="Enviar"></p>
+            </div>
+            <div><p style="color:#16223c">Ou</p></div>
+            <!--/Botão Transferência Bancaria-->
             <!--Botão PagSeguro-->
-            <a href="https://pag.ae/7WBEsMpQu/button" target="_blank" title="Pagar com PagSeguro"><img class="pagamento" src="//assets.pagseguro.com.br/ps-integration-assets/botoes/pagamentos/205x30-pagar.gif" alt="Pague com PagSeguro - é rápido, grátis e seguro!"/></a>
+            <div style="padding-right: 13%">
+                <a href="https://pag.ae/7WBEsMpQu/button" target="_blank" title="Pagar com PagSeguro"><img class="pagamento" src="//assets.pagseguro.com.br/ps-integration-assets/botoes/pagamentos/205x30-pagar.gif" alt="Pague com PagSeguro - é rápido, grátis e seguro!"/></a>
+            </div>
             <!--/Botão PagSeguro-->
         </div>
+        <!--Métodos de Pagamento-->   
         </section>
     </body>
 </html>

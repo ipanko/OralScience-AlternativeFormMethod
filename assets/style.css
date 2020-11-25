@@ -176,6 +176,11 @@ body {
     .pagamento{
         width: 60%;
     }
+    .flexbox{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+    }
 }
 /* Conteúdo Programático */
 .list div + div{
@@ -198,4 +203,21 @@ body {
 }
 .text-justify-normal {
   text-align: justify !important;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.butao{
+    border: 0;
+    width:85px;
+    color: white;
+    background-color:#0086be;
+    transition: 0.3s;
+}
+.butao:hover{
+    background: #079ddb;
+    transition: 0.3s;
 }
